@@ -81,3 +81,17 @@ article ul{
     table, th, td {
   border: 1px solid black;
 }
+
+form{
+    background-color: green;
+}
+
+#form1{
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#form2{
+    background-color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
