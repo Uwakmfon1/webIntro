@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+
+/* div{
+    width: 200px;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: content-box;
+    background-color: rebeccapurple;
+    box-sizing: border-box;
+} */
+
+
+
+
+
+.profile {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px #ccc;
+  width: 300px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+/* .avatar {
+  width: 100px;
+  border-radius: 50%;
+} */
+
+.card {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+
+.divContainer{
+    width: 300px;
+    padding:1em;
+    margin-left: 10em;
+    padding-left:5em; 
+    /* border:1px solid black; */
+    box-shadow: 0 0 10px rgb(80, 77, 77);
+    border-radius: 20px;
+    background-color: rgb(227, 226, 226);
+}
+
+.avatar{
+    border-radius: 50%;
+    /* margin-left: 3.5em; */
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+header #logo {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:1em;
+}
+
+header #links{
+    display: flex;
+    gap: 1em;
+}
+header #links li a{
+    text-decoration: none;
+}
+
+header #links li a:hover{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    
+}
+
+
+#button{
+    background-color: gray;
+    color: white;
+    height: 40px;
+    width: 60px;
+}
