@@ -2,29 +2,28 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
+  <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <span id="logo">Logo</span>
+  <header>
+    <span id="logo">Logo</span>
 
-        <ul id="links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">faq</a></li>
-        </ul>
+    <ul id="links">
+      <li><a href="#" active>Home</a></li>
+      <li><a href="#">about</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">faq</a></li>
+    </ul>
 
-        <button id="button"> 
-            Sign In
-        </button>
-        
-    </header>
-
+    <button id="button">
+      Sign In
+    </button>
+  </header>
+  <!-- 
     <hr>
     <div class="content1">
         <h2>This is a DIV</h2>
@@ -41,7 +40,7 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis hic vel quam saepe debitis illo officia
             quaerat odit, officiis iste omnis eligendi, deleniti reprehenderit quos quo dolore. Ut, voluptatum quae!
         </p>
-        <!-- <img src="./img/crying_child.jpeg" alt="crying child" width="150" height="150"> -->
+       
         <ul>
             <li>list item 1</li>
             <li>list item 2</li>
@@ -56,7 +55,7 @@
         <p>Frontend Developer</p>
     </div>
 
-<div class="profile">
+    <div class="profile">
         <img src="./img/facecard.jpeg" alt="Jane" class="avatar">
         <h1>John Doe</h1>
         <p>Frontend Developer</p>
@@ -65,11 +64,180 @@
     <div class="card">
         <h2>Jane Doe</h2>
         <p>Web Developer</p>
-    </div>
+    </div> -->
+
+  <br><br>
+
+  <form action="" id="form1">
+
+    <input type="text" placeholder="Enter Email Address">
+    <input type="submit" value="Submit">
+  </form>
+
+  <br><br><br>
+  <div class="boxmodel">
+
+  </div>
+  <br><br>
+  <p>
+    <span>
+      This is yellow
+    </span>
+    <strong>
+      <p>
+        This is <span>not</span> yellow
+      </p>
+    </strong>
+  </p>
+
+
+  <p>This is a paragraph</p>
+  <span>This is a yellow span</span>
+
+  <br>
+
+  <button>Click Me</button>
+  <style>
+    button:active {
+      background-color: red;
+    }
+  </style>
+
+
+
+  <input type="checkbox" id="check">
+  <label for="check">Check me</label>
+
+  <style>
+    input:checked+label {
+      color: green;
+    }
+  </style>
 
 
 
 
+  <button id="btn" disabled>Submit Btn</button>
+
+
+  <style>
+    input:default {
+      border: 2px solid blue;
+    }
+  </style>
+  <br>
+
+  <input type="text" disabled>
+
+  <style>
+    input:disabled {
+      background-color: #eee;
+      cursor: not-allowed;
+    }
+  </style>
+
+  <br><br>
+
+  <div class="box"></div>
+  <style>
+    .box:empty {
+      border: 2px dashed orange;
+      height: 40px;
+    }
+  </style>
+
+  <br>
+  <input type="text">
+  <input type="text" disabled>
+
+  <style>
+    input:enabled {
+      background-color: #e0ffe0;
+    }
+  </style>
+  <br>
+
+  <ul>
+    <li>First</li>
+    <li>Second</li>
+  </ul>
+
+  <style>
+    li:first-child {
+      font-weight: bold;
+    }
+  </style>
+
+  <br><br>
+
+  <input type="text" placeholder="Click me">
+  <style>
+    input:focus {
+      outline: 2px solid purple;
+    }
+  </style>
+  <br><br>
+  <ul>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+  </ul>
+
+  <style>
+    li:last-child {
+      color: blue;
+    }
+
+    li:nth-child(2) {
+      color: red;
+    }
+  </style>
+
+  <br><br>
+  <ul>
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+  </ul>
+
+  <style>
+    li:nth-last-child(1) {
+      text-decoration: underline;
+    }
+  </style>
+
+
+
+
+  <form action="#">
+    <input type="text" placeholder="text1">
+    <input type="text" placeholder="text2">
+    <input type="text" placeholder="text3">
+    <input type="submit" value="Submit Now">
+  </form>
+
+  <br>
+
+  <div style="background-color: gray;">
+    <h1>Welcome h1</h1>
+    <h2>Welcome h2</h2>
+    <h3>Welcome h3</h3>
+    <h4>Welcome h4</h4>
+    <h5>Welcome h5</h5>
+  </div>
+
+<br><br><br>
+
+<!-- <script>
+  console.log('welcome Raymond');
+
+ const form12 = document.getElementById("submit");
+  
+  form12.addEventListener('mouseover', ()=>{
+    alert("form has been hovered over");
+    console.log("form submitted");
+  });
+</script> -->
 
 
 </body>

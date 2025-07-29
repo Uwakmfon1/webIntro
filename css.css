@@ -1,10 +1,17 @@
 *{
-    margin: 0;
+    margin-left: 2em;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
 }
 
+
+div.boxmodel {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
 
 
 /* div{
@@ -81,12 +88,12 @@ header #links li a{
     text-decoration: none;
 }
 
-header #links li a:hover{
+/* header #links li a:hover{
     background-color: red;
     color: white;
     padding: 5px;
     
-}
+} */
 
 
 #button{
@@ -95,3 +102,51 @@ header #links li a:hover{
     height: 40px;
     width: 60px;
 }
+
+
+/* p > span {
+color: yellow;
+} */
+
+/* p + span {
+color: yellow;
+}
+
+p{color: yellow;}
+
+p span{
+    color: red;
+} */
+
+#form1{
+    font-size: 50px;
+    color:blue;
+}
+
+
+#form1 input:placeholder-shown{
+    color: red;
+}
+
+#former p{
+    color: red;
+   font-weight: 800;
+   font-size: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header ul li a:active{
+    background-color: blue;
+}
+
+#btn:disabled{
+    color:gray;
+
+}
+
+
+/* div{
+    width:600px;
+    display: flex;
+} */
+
