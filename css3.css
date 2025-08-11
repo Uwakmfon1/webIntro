@@ -1,0 +1,46 @@
+/* if you want to avoid repeating same styles throughout your project and have a unified styling use this*/
+:root {
+    --font-color: #dede28;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --font-main: 'Roboto', sans-serif;
+    --border-radius: 8px;
+    --primary-padding:1em;
+    --margin-left:2em;
+}
+
+/* applied usage seen here calling it with var() */
+body {
+    margin-left: var(--margin-left);
+    background-color: var(--primary-color);
+    font-family: var(--font-main);
+}
+
+button {
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    color: white;
+}
+
+button.danger {
+    background-color: var(--accent-color);
+}
+
+h1{
+    font-family: var(--font-main);
+    color: var(--font-color);
+}
+
+h2 {
+    font-family: var(--font-main);
+    color: var(--font-color);
+}
+
+.responsive1 {
+    background-color: var(--accent-color);
+    border-radius: var(--border-radius);
+    padding: var(--primary-padding);
+    width: fit-content;
+}

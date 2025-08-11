@@ -1,0 +1,172 @@
+* {
+  margin: 2em;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;  
+} */
+
+/* button:active { */
+/* background-color: #45a049;  */
+/* Darker shade when clicked */
+/* transform: scale(0.95); */
+/* Slightly shrink the button */
+/* }  */
+
+/* input:checked+label {
+  font-weight: bold;
+  color: green;
+}
+
+
+button:default {
+  background-color: #4CAF50;
+  color: white;
+}
+
+input:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+nav {
+  background-color: darkkhaki;
+  align-content: baseline;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+
+}
+
+li {} */
+
+/* #box1 {
+  position: absolute;
+  background-color: red;
+  margin: 20px;
+  padding: 10px;
+  border: 5px solid black;
+  width: 100px;
+  height: 100px;
+  text-align: justify;
+  float: left;
+  z-index: 1;
+ 
+}
+
+#box2 {
+  position: absolute;
+  background-color: blue;
+margin: 20px;
+padding: 50px;
+border: 5px solid black;
+width: 100px;
+height: 100px;
+text-align: justify;
+float: left;
+left: 200px;
+z-index: 2;
+} */
+
+/* div {
+  padding: 10px;
+  border: 1px dashed black;
+  margin: 5px;
+  float: left;
+} */
+
+
+/* #box1 {
+  width: 60px;
+  height: 100px;
+}
+
+#box2 {
+  width: 100px;
+  height: 20px;
+}
+
+#box3 {
+  width: 50px;
+  height: 150px;
+}
+
+#box4 {
+  width: 20px;
+  height: 50px;
+}
+
+#box5 {
+  width: 150px;
+  height: 120px;
+}
+
+#box6 {
+  width: 120px;
+  height: 70px;
+}
+
+#box7 {
+  width: 25px;
+  height: 80px;
+} */
+
+
+.parent {
+  background-color: #af47ff;
+  padding: 30px;
+  width: 300px;
+}
+
+.child {
+  background-color: #ff4797;
+  padding: 30px;
+}
+
+.box {
+  background-color: #f3ff47;
+  padding: 30px;
+  border: 2px solid #333;
+  border-style: dotted;
+  font-family: courier;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.searchbar{
+  position: relative;
+ 
+}
+
+.searchbar input{ 
+  width: 450px;          /* Input width */
+  padding: 10px;         /* Inner spacing */
+  font-size: 16px;       /* Text size */
+  border: 2px solid #ccc;/* Border color */
+  border-radius: 12px;    /* Rounded corners */
+  outline: none;
+   background-color:blue;
+  color: green;
+}
+
+.searchbarChild{
+  position:absolute;
+
+}
