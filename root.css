@@ -1,0 +1,16 @@
+:root {
+    --font-color: #dede28;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --tertiary-color:#33d2f2;
+    --primary-color:white;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --font-main: 'Roboto', sans-serif;
+    --border-radius: 8px;
+    --primary-padding:1em;
+    --margin-left:2em;
+    --light-green:#26f57c;
+    --paragraph-color:green;
+    --par-text-color:gray;
+    --div-background:rgb(247, 242, 242);
+}

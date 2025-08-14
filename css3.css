@@ -1,19 +1,18 @@
 /* if you want to avoid repeating same styles throughout your project and have a unified styling use this*/
-:root {
-    --font-color: #dede28;
-    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --accent-color: #e74c3c;
-    --font-main: 'Roboto', sans-serif;
-    --border-radius: 8px;
-    --primary-padding:1em;
-    --margin-left:2em;
+@import url(root.css)
+    
+
+
+/* p{
+    color:var(--paragraph-color);
+    color: rgb(247, 242, 242);
+
+    background-color:var(--primary-color);
+    
 }
 
-/* applied usage seen here calling it with var() */
 body {
-    margin-left: var(--margin-left);
+    
     background-color: var(--primary-color);
     font-family: var(--font-main);
 }
@@ -44,3 +43,67 @@ h2 {
     padding: var(--primary-padding);
     width: fit-content;
 }
+
+
+@media screen and (max-width:1024px){
+body {
+    
+    background-color: var(--tertiary-color);
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+  body {
+    
+    background-color: var(--accent-color);}
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    
+    background-color: var(--light-green);
+    margin-left: 0.5em;
+    }
+
+   .header1{
+    display: none;
+   }
+
+    h1{
+        color: red;
+        font-size: 20px;
+    }
+     .responsive1{
+        background-color: aqua;
+    }
+} */
+
+
+
+
+
+summary {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+
+@media (min-width: 600px) {
+  summary { display: none; }
+  nav { flex-direction: row; margin-top: 0; }
+}
+
+
+
+/* Media Types */
+/* all --	Used for all media type devices
+print --	Used for print preview mode
+screen --	Used for computer screens, tablets, smart-phones etc. */
