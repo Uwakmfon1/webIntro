@@ -1,7 +1,4 @@
 
-
-console.log(data);
-
 let fruits = [
     "apple", "water melon", "pineapple", "mango", "orange", "cucumber", "banana", "strawberry", "Grape", "paw paw", "Avocado", "pear",
 ];
